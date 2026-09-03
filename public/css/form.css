@@ -1,0 +1,292 @@
+/**
+ * LeadMagnet — front-end form styles.
+ *
+ * Deliberately restrained: this ships onto many different themes, so it
+ * inherits the host site's fonts and colors and exposes CSS variables for
+ * per-site overrides. Override any --lmf93-* variable in your theme.
+ */
+
+.lmf93-wrap {
+	--lmf93-gap: 1rem;
+	--lmf93-radius: 8px;
+	--lmf93-border: #d4d9e0;
+	--lmf93-border-focus: #2b6cb0;
+	--lmf93-label: inherit;
+	--lmf93-accent: #2b6cb0;
+	--lmf93-accent-text: #ffffff;
+	--lmf93-error-bg: #fdecea;
+	--lmf93-error-text: #a32419;
+	--lmf93-success-bg: #e7f6ec;
+	--lmf93-success-text: #1a7f43;
+	--lmf93-field-bg: #ffffff;
+
+	max-width: 34rem;
+	font-family: inherit;
+	color: inherit;
+}
+
+.lmf93-form {
+	display: flex;
+	flex-direction: column;
+	gap: var(--lmf93-gap);
+}
+
+.lmf93-field {
+	display: flex;
+	flex-direction: column;
+	gap: 0.35rem;
+}
+
+.lmf93-field label,
+.lmf93-group-label {
+	font-weight: 600;
+	font-size: 0.95rem;
+	color: var(--lmf93-label);
+}
+
+.lmf93-req {
+	color: var(--lmf93-error-text);
+}
+
+.lmf93-field input[type="text"],
+.lmf93-field input[type="email"],
+.lmf93-field input[type="tel"],
+.lmf93-field input[type="number"],
+.lmf93-field select,
+.lmf93-field textarea {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.65rem 0.75rem;
+	font: inherit;
+	color: inherit;
+	background: var(--lmf93-field-bg);
+	border: 1px solid var(--lmf93-border);
+	border-radius: var(--lmf93-radius);
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.lmf93-field input:focus,
+.lmf93-field select:focus,
+.lmf93-field textarea:focus {
+	outline: none;
+	border-color: var(--lmf93-border-focus);
+	box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.15);
+}
+
+.lmf93-field textarea {
+	resize: vertical;
+	min-height: 6rem;
+}
+
+.lmf93-options {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1rem;
+}
+
+.lmf93-opt {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.lmf93-consents {
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	margin: 0.25rem 0;
+}
+
+.lmf93-consent {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.5rem;
+	font-size: 0.9rem;
+	line-height: 1.4;
+	cursor: pointer;
+}
+
+.lmf93-consent input {
+	margin-top: 0.2rem;
+	flex: 0 0 auto;
+}
+
+.lmf93-consent a {
+	color: var(--lmf93-accent);
+}
+
+.lmf93-captcha {
+	margin: 0.25rem 0;
+}
+
+.lmf93-submit {
+	align-self: flex-start;
+	padding: 0.75rem 1.5rem;
+	font: inherit;
+	font-weight: 600;
+	color: var(--lmf93-accent-text);
+	background: var(--lmf93-accent);
+	border: none;
+	border-radius: var(--lmf93-radius);
+	cursor: pointer;
+	transition: opacity 0.15s ease, transform 0.05s ease;
+}
+
+.lmf93-submit:hover {
+	opacity: 0.92;
+}
+
+.lmf93-submit:active {
+	transform: translateY(1px);
+}
+
+.lmf93-submit:disabled,
+.lmf93-submit.lmf93-loading {
+	opacity: 0.6;
+	cursor: progress;
+}
+
+.lmf93-messages {
+	display: none;
+	padding: 0.75rem 1rem;
+	border-radius: var(--lmf93-radius);
+	font-size: 0.95rem;
+}
+
+.lmf93-messages.lmf93-error {
+	display: block;
+	background: var(--lmf93-error-bg);
+	color: var(--lmf93-error-text);
+}
+
+.lmf93-messages.lmf93-success {
+	display: block;
+	background: var(--lmf93-success-bg);
+	color: var(--lmf93-success-text);
+}
+
+/* Hide the whole form after a successful submission, keeping the message. */
+.lmf93-form.lmf93-submitted .lmf93-field,
+.lmf93-form.lmf93-submitted .lmf93-consents,
+.lmf93-form.lmf93-submitted .lmf93-captcha,
+.lmf93-form.lmf93-submitted .lmf93-submit {
+	display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.lmf93-field input,
+	.lmf93-field select,
+	.lmf93-field textarea,
+	.lmf93-submit {
+		transition: none;
+	}
+}
+
+/* =====================================================================
+   Arviointi-widget ( [lmf93_review] )
+   ===================================================================== */
+.lmf93-review {
+	max-width: 520px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: inherit;
+}
+.lmf93-review-title {
+	font-size: 24px;
+	color: #0d3d2e;
+	margin: 0 0 8px;
+}
+.lmf93-review-intro {
+	color: #40514a;
+	font-size: 16px;
+	margin: 0 0 22px;
+}
+.lmf93-stars {
+	display: flex;
+	justify-content: center;
+	gap: 6px;
+	margin: 0 0 10px;
+}
+.lmf93-star {
+	background: none;
+	border: none;
+	padding: 4px;
+	cursor: pointer;
+	line-height: 0;
+}
+.lmf93-star svg {
+	fill: #d9e2dd;
+	transition: fill .12s ease, transform .12s ease;
+}
+.lmf93-star:hover svg {
+	transform: scale(1.08);
+}
+.lmf93-star.is-on svg {
+	fill: #f5b301;
+}
+.lmf93-review-low {
+	margin-top: 18px;
+	text-align: left;
+	background: #f1f8f5;
+	border: 1px solid #cfe8dd;
+	border-radius: 14px;
+	padding: 20px;
+}
+.lmf93-review-low-title {
+	font-weight: 700;
+	color: #0d3d2e;
+	margin: 0 0 14px;
+	font-size: 16px;
+}
+.lmf93-review-low .lmf93-field {
+	margin-bottom: 14px;
+}
+.lmf93-review-low textarea {
+	width: 100%;
+	font: inherit;
+	font-size: 16px;
+	border: 1.5px solid #cfe8dd;
+	border-radius: 12px;
+	padding: 12px 14px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+.lmf93-review-low textarea:focus {
+	outline: none;
+	border-color: #0d7a5f;
+	box-shadow: 0 0 0 3px rgba(13,122,95,.18);
+}
+.lmf93-review-thanks {
+	margin-top: 18px;
+	background: #eaf7f1;
+	border: 1px solid #b8e3d0;
+	border-radius: 12px;
+	padding: 18px;
+	color: #0d5c44;
+	font-weight: 600;
+}
+.lmf93-review-error-msg {
+	margin-top: 14px;
+	background: #fdecea;
+	border: 1px solid #f5c6c0;
+	border-radius: 12px;
+	padding: 12px 14px;
+	color: #a5281b;
+	font-weight: 600;
+}
+.lmf93-review-error {
+	color: #a5281b;
+	font-weight: 600;
+}
+
+/* Locked city field (auto-filled from postal code) */
+.lmf93-city-locked {
+	background: #f1f8f5;
+	cursor: not-allowed;
+	color: #0d3d2e;
+}
+.lmf93-city-locked::placeholder {
+	color: #8a9992;
+}
