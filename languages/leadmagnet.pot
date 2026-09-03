@@ -1,0 +1,1127 @@
+# Copyright (C) 2026 LeadMagnet
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: LeadMagnet 2.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/finland93/leadmagnet/issues\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: leadmagnet\n"
+
+msgid "%d leads"
+msgstr ""
+
+msgid "%d stars or more"
+msgstr ""
+
+msgid "(anonymous)"
+msgstr ""
+
+msgid "(lead deleted)"
+msgstr ""
+
+msgid "(not specified)"
+msgstr ""
+
+msgid "(tietosuojaseloste)"
+msgstr ""
+
+msgid "+ Add follow-up message"
+msgstr ""
+
+msgid "0 = unlimited"
+msgstr ""
+
+msgid "1. Adding a form to a page"
+msgstr ""
+
+msgid "10. Adapting to your country"
+msgstr ""
+
+msgid "2. Adding and editing form fields"
+msgstr ""
+
+msgid "3. Consents (checkboxes)"
+msgstr ""
+
+msgid "4. Lead pricing (value_rules)"
+msgstr ""
+
+msgid "5. Scoring (optional)"
+msgstr ""
+
+msgid "6. Billing page"
+msgstr ""
+
+msgid "7. Feedback and customer reviews"
+msgstr ""
+
+msgid "8. Follow-up messages"
+msgstr ""
+
+msgid "9. Sending test messages"
+msgstr ""
+
+msgid "A Finnish dataset is bundled as an example at <code>public/data/examples/fi-postal-codes.json</code>; if you leave the URL empty but enable auto-fill, that example is used."
+msgstr ""
+
+msgid "A customer left a low rating. Please reach out and try to turn the experience around."
+msgstr ""
+
+msgid "A form cannot be submitted without a required consent. Every consent is logged as proof (timestamp, text, privacy policy version)."
+msgstr ""
+
+msgid "A friendly reminder from {site_name}"
+msgstr ""
+
+msgid "A new lead has arrived."
+msgstr ""
+
+msgid "A page containing the [lmf93_review] shortcode. This page is hidden from search engines automatically."
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Add a form to any page or post with a shortcode. Put this in the content:"
+msgstr ""
+
+msgid "Add new"
+msgstr ""
+
+msgid "Add the shortcode <code>[lmf93_review]</code> as the page content."
+msgstr ""
+
+msgid "Admin notifications"
+msgstr ""
+
+msgid "After the amount (10 €)"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "All forms"
+msgstr ""
+
+msgid "All partners"
+msgstr ""
+
+msgid "All statuses"
+msgstr ""
+
+msgid "Also show already billed"
+msgstr ""
+
+msgid "Anonymize after (days)"
+msgstr ""
+
+msgid "Anti-spam check failed. Please try again."
+msgstr ""
+
+msgid "Any (letters and numbers) – works everywhere"
+msgstr ""
+
+msgid "Any form field is also available as {field_key} and, for choice fields, {field_key_label}."
+msgstr ""
+
+msgid "Area"
+msgstr ""
+
+msgid "Assigned"
+msgstr ""
+
+msgid "At the top of the Emails page there is a \"Send a test message\" section. Choose any message and send it to the admin email. It is sent with example data (a fake customer, Jane Doe), so you can see the result without a real lead. The subject is prefixed with [TEST]."
+msgstr ""
+
+msgid "Auto-fill city from postal code"
+msgstr ""
+
+msgid "Automated follow-up messages"
+msgstr ""
+
+msgid "Available placeholders (you can use these in the subject or body):"
+msgstr ""
+
+msgid "Before the amount ($10)"
+msgstr ""
+
+msgid "Billed"
+msgstr ""
+
+msgid "Billing"
+msgstr ""
+
+msgid "Built-in follow-up messages"
+msgstr ""
+
+msgid "CAPTCHA provider"
+msgstr ""
+
+msgid "Campaign"
+msgstr ""
+
+msgid "Choice fields (select / radio / checkbox)"
+msgstr ""
+
+msgid "Choose \"Numeric only\" for countries with digit-only postal codes; otherwise leave \"Any\" so codes like SW1A 1AA or K1A 0B1 work."
+msgstr ""
+
+msgid "Choose a topic"
+msgstr ""
+
+msgid "Cloudflare Turnstile"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Comment:"
+msgstr ""
+
+msgid "Communication or reachability"
+msgstr ""
+
+msgid "Company"
+msgstr ""
+
+msgid "Company name"
+msgstr ""
+
+msgid "Comparison: equals, not_equals, contains, gte (greater or equal), lte (less or equal), exists."
+msgstr ""
+
+msgid "Consents"
+msgstr ""
+
+msgid "Consents live in the \"consents\" list. Each has a \"purpose\", a required flag, and visible text:"
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+msgid "Contacted"
+msgstr ""
+
+msgid "Convert it to the JSON format above and save it as a file, e.g. <code>my-country.json</code>."
+msgstr ""
+
+msgid "Copy the page address into the \"Review page URL\" field on the Settings page. The page is hidden from search engines automatically (noindex)."
+msgstr ""
+
+msgid "Could not save your request. Please try again."
+msgstr ""
+
+msgid "Create a new WordPress page, for example named \"Review\"."
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
+msgid "Currency symbol"
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Customer confirmation (partner found)"
+msgstr ""
+
+msgid "Customer confirmation (searching for partner)"
+msgstr ""
+
+msgid "Customer details:"
+msgstr ""
+
+msgid "Customer reviews"
+msgstr ""
+
+msgid "Customer: confirmation when a partner was found"
+msgstr ""
+
+msgid "Customer: received, searching for a partner"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Default lead form"
+msgstr ""
+
+msgid "Define any messages you like, sent to the customer after a set time. Trigger: form submitted, lead routed to a partner, marked as won, or job completed. Delay is in days. Remove a message by clearing its subject and body, or press Remove."
+msgstr ""
+
+msgid "Define fields, consents, scoring and pricing (value_rules) here. Field \"map\" values (first_name, last_name, email, phone, postal_code, city) promote a field to its own column. See the Help page for details."
+msgstr ""
+
+msgid "Delay (days):"
+msgstr ""
+
+msgid "Delay after job completion (days):"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete all plugin data (leads, partners, settings) when the plugin is deleted"
+msgstr ""
+
+msgid "Delete permanently"
+msgstr ""
+
+msgid "Delete this form?"
+msgstr ""
+
+msgid "Delete this partner?"
+msgstr ""
+
+msgid "Deleted."
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit form"
+msgstr ""
+
+msgid "Edit partner"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Email me when a customer leaves a low rating with a reason"
+msgstr ""
+
+msgid "Email me when a new lead arrives"
+msgstr ""
+
+msgid "Email:"
+msgstr ""
+
+msgid "Emails"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Every 5 minutes (LeadMagnet)"
+msgstr ""
+
+msgid "Everywhere"
+msgstr ""
+
+msgid "Example:"
+msgstr ""
+
+msgid "Exclusive"
+msgstr ""
+
+msgid "Export data (JSON)"
+msgstr ""
+
+msgid "Feedback"
+msgstr ""
+
+msgid "Feedback updated."
+msgstr ""
+
+msgid "Field type: text, email, tel, number, textarea, select, radio or checkbox."
+msgstr ""
+
+msgid "Fill the city field automatically from a postal-code dataset"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "Follow-ups and reviews"
+msgstr ""
+
+msgid "For privacy reasons no personal data is shown in this message. Open the lead in the dashboard:"
+msgstr ""
+
+msgid "Form expired, please reload the page."
+msgstr ""
+
+msgid "Form submitted"
+msgstr ""
+
+msgid "Forms"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "GDPR"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Get a postal-code → locality list for your country (many national postal services and open-data projects publish one)."
+msgstr ""
+
+msgid "Google reCAPTCHA v2"
+msgstr ""
+
+msgid "Google reCAPTCHA v3"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Here you see the billable leads per partner. Only leads routed to a partner that are not cancelled or refunded are included. Mark leads as billed once you have sent the invoice – they leave this view."
+msgstr ""
+
+msgid "How can we help?"
+msgstr ""
+
+msgid "How did we do?"
+msgstr ""
+
+msgid "How did we do? Leave us a review"
+msgstr ""
+
+msgid "I have read the privacy policy and accept the processing of my request."
+msgstr ""
+
+msgid "I want to receive occasional tips and offers by email."
+msgstr ""
+
+msgid "If you no longer wish to receive these messages:"
+msgstr ""
+
+msgid "If you want the city to fill in automatically, tick \"Auto-fill city from postal code\" and provide a dataset URL. The dataset is a simple JSON object mapping postal codes to city names:"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "Important:"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Invalid link."
+msgstr ""
+
+msgid "Invalid selection."
+msgstr ""
+
+msgid "Job completed"
+msgstr ""
+
+msgid "Job status"
+msgstr ""
+
+msgid "Keep \"value\" simple and stable (lowercase, no spaces), because pricing and scoring rules reference it. \"label\" can be anything and can be changed at any time."
+msgstr ""
+
+msgid "Key"
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "Lead not found."
+msgstr ""
+
+msgid "Lead reference prefix"
+msgstr ""
+
+msgid "Lead to partner"
+msgstr ""
+
+msgid "Lead to partner (full customer details)"
+msgstr ""
+
+msgid "LeadMagnet"
+msgstr ""
+
+msgid "LeadMagnet – Settings"
+msgstr ""
+
+msgid "Leads"
+msgstr ""
+
+msgid "Leads marked as billed."
+msgstr ""
+
+msgid "Leave this field empty"
+msgstr ""
+
+msgid "Leave your review here:"
+msgstr ""
+
+msgid "Limits (day/mo)"
+msgstr ""
+
+msgid "Localization"
+msgstr ""
+
+msgid "Lost"
+msgstr ""
+
+msgid "Low customer rating (%d/5) – please follow up"
+msgstr ""
+
+msgid "Low ratings only (≤2)"
+msgstr ""
+
+msgid "Low-rating notification"
+msgstr ""
+
+msgid "Low-rating notification email"
+msgstr ""
+
+msgid "Lower number = higher priority."
+msgstr ""
+
+msgid "Maintenance, 3 units at a base price of 30: 30 × (1 + 0.25 × 2) = 45."
+msgstr ""
+
+msgid "Management"
+msgstr ""
+
+msgid "Mark selected as billed"
+msgstr ""
+
+msgid "Marked as won"
+msgstr ""
+
+msgid "Marking as completed schedules the follow-up messages (if enabled)."
+msgstr ""
+
+msgid "Max leads / day"
+msgstr ""
+
+msgid "Max leads / month"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Metadata"
+msgstr ""
+
+msgid "Minimum submit time (s)"
+msgstr ""
+
+msgid "Multi-condition rule (all conditions must match)"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New form"
+msgstr ""
+
+msgid "New lead %s"
+msgstr ""
+
+msgid "New lead {reference} – {postal_code}"
+msgstr ""
+
+msgid "New partner"
+msgstr ""
+
+msgid "No billable leads for the selected filters."
+msgstr ""
+
+msgid "No feedback yet."
+msgstr ""
+
+msgid "No forms yet."
+msgstr ""
+
+msgid "No leads."
+msgstr ""
+
+msgid "No partners yet."
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Notification email"
+msgstr ""
+
+msgid "Numeric only (e.g. Finland, Germany, USA)"
+msgstr ""
+
+msgid "Off by default so you never lose data by accident."
+msgstr ""
+
+msgid "On the Emails page you can enable two built-in messages sent when a lead\\'s job status is \"completed\": a review request and a service reminder. Their text is edited on the Emails page too."
+msgstr ""
+
+msgid "Only for select, radio and checkbox fields. A list of choices (see below)."
+msgstr ""
+
+msgid "Open a form on the Forms page and edit its settings in the JSON editor. Fields live in the \"fields\" list. Each field looks like this:"
+msgstr ""
+
+msgid "Optional. A field to read a quantity from (e.g. unit_count)."
+msgstr ""
+
+msgid "Optional. A list of conditions that must ALL match. Use this OR a single field/operator/value, not both in the same rule."
+msgstr ""
+
+msgid "Optional. Increase per extra unit. 0.25 = +25% for each unit after the first. Formula: price × (1 + 0.25 × (n − 1))."
+msgstr ""
+
+msgid "Optional. Links the field to a standard column so it gets its own column: first_name, last_name, email, phone, postal_code, city. Leave out for ordinary extra fields."
+msgstr ""
+
+msgid "Optional: auto-fill the city from the postal code"
+msgstr ""
+
+msgid "Other reason"
+msgstr ""
+
+msgid "Partner"
+msgstr ""
+
+msgid "Partner #%d"
+msgstr ""
+
+msgid "Partner routing by postal code works with any format: a partner\\'s postal-code list matches by prefix, so \"SW1\" matches \"SW1A 1AA\", and \"10\" matches \"10001\". Leave a partner\\'s postal list empty to match the whole country."
+msgstr ""
+
+msgid "Partners"
+msgstr ""
+
+msgid "Paste the URL into \"Postal dataset URL\" on the Settings page."
+msgstr ""
+
+msgid "Paste your Google or Trustpilot review link into the \"Public review URL\" field."
+msgstr ""
+
+msgid "Permanently delete this lead and all related data?"
+msgstr ""
+
+msgid "Personal data is automatically stripped from leads older than this. 0 = keep forever."
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Phone:"
+msgstr ""
+
+msgid "Please accept the required consent to continue."
+msgstr ""
+
+msgid "Please complete the anti-spam check."
+msgstr ""
+
+msgid "Please enter a valid email address."
+msgstr ""
+
+msgid "Please enter a valid phone number."
+msgstr ""
+
+msgid "Please fill in: %s"
+msgstr ""
+
+msgid "Postal"
+msgstr ""
+
+msgid "Postal code"
+msgstr ""
+
+msgid "Postal code format"
+msgstr ""
+
+msgid "Postal code max length"
+msgstr ""
+
+msgid "Postal codes"
+msgstr ""
+
+msgid "Postal dataset URL"
+msgstr ""
+
+msgid "Preferences page URL"
+msgstr ""
+
+msgid "Price note"
+msgstr ""
+
+msgid "Pricing or billing"
+msgstr ""
+
+msgid "Pricing sets how much each lead is worth (e.g. for partner billing). Rules live in the \"value_rules\" list. The first matching rule wins, so put the most specific rules first and a general fallback last."
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "Privacy & GDPR"
+msgstr ""
+
+msgid "Privacy policy URL"
+msgstr ""
+
+msgid "Privacy policy version"
+msgstr ""
+
+msgid "Public review URL"
+msgstr ""
+
+msgid "Quality of work"
+msgstr ""
+
+msgid "Rate us by clicking the stars. Your feedback helps us improve."
+msgstr ""
+
+msgid "Rating"
+msgstr ""
+
+msgid "Rating:"
+msgstr ""
+
+msgid "Reason"
+msgstr ""
+
+msgid "Reason:"
+msgstr ""
+
+msgid "Received"
+msgstr ""
+
+msgid "Redirect threshold (stars)"
+msgstr ""
+
+msgid "Reference"
+msgstr ""
+
+msgid "Reference:"
+msgstr ""
+
+msgid "Reference: %s"
+msgstr ""
+
+msgid "Regions"
+msgstr ""
+
+msgid "Regions (notes)"
+msgstr ""
+
+msgid "Reject forms submitted faster than this (bot check)."
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Resolved"
+msgstr ""
+
+msgid "Review page URL (hidden)"
+msgstr ""
+
+msgid "Review request"
+msgstr ""
+
+msgid "Route this area\\'s leads only to this partner"
+msgstr ""
+
+msgid "Routed to partner"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save emails"
+msgstr ""
+
+msgid "Save form"
+msgstr ""
+
+msgid "Save partner"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid "Saved."
+msgstr ""
+
+msgid "Scheduled follow-up messages (add / remove)"
+msgstr ""
+
+msgid "Scheduling or delays"
+msgstr ""
+
+msgid "Score"
+msgstr ""
+
+msgid "Scoring works like pricing but adds points instead of a price, so you can rate lead quality. Same condition structure, but with \"points\" instead of \"base_price\":"
+msgstr ""
+
+msgid "Search name, email, phone…"
+msgstr ""
+
+msgid "Secret key"
+msgstr ""
+
+msgid "Security check failed. Please reload the page."
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Send a test message"
+msgstr ""
+
+msgid "Send feedback"
+msgstr ""
+
+msgid "Send request"
+msgstr ""
+
+msgid "Send test to admin email"
+msgstr ""
+
+msgid "Send the selected message to the admin email using example data (a fake customer, Jane Doe), so you can see how it looks. The subject is prefixed with [TEST]."
+msgstr ""
+
+msgid "Send this message"
+msgstr ""
+
+msgid "Sending the test message failed. Check the admin email and the message content."
+msgstr ""
+
+msgid "Sent if no partner was found for the area yet. The customer still gets a confirmation so their request does not feel lost. If you are not using partner routing, this is your default confirmation message."
+msgstr ""
+
+msgid "Sent to the partner company for the area. It contains the full customer details so the partner can make contact directly. Reply-To is the customer. If you are not using partner routing, you can disable this message."
+msgstr ""
+
+msgid "Sent to the person who submitted the form when the lead was routed to a partner."
+msgstr ""
+
+msgid "Separate with commas or line breaks. Prefixes are allowed (e.g. \"20\" matches all 20xxx). Empty = whole country."
+msgstr ""
+
+msgid "Service reminder"
+msgstr ""
+
+msgid "Service values this partner accepts (matches the \"service_type\" field values). Empty = all."
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "Set the \"Redirect threshold\": this many stars or more sends the customer to your public review service."
+msgstr ""
+
+msgid "Set the currency symbol, its position, and the price note (e.g. \"excl. VAT\")."
+msgstr ""
+
+msgid "Set the postal code format to \"Numeric only\" for countries with digit-only codes, or leave it \"Any\" so codes like SW1A 1AA (UK) or K1A 0B1 (Canada) work."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Settings (JSON)"
+msgstr ""
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "Shortcode:"
+msgstr ""
+
+msgid "Shown next to totals on the billing page, e.g. \"excl. tax\" or \"excl. VAT\"."
+msgstr ""
+
+msgid "Single-condition rule"
+msgstr ""
+
+msgid "Site key"
+msgstr ""
+
+msgid "Sorry to hear that. What were you not happy with?"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Spam protection"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Steps to add your country:"
+msgstr ""
+
+msgid "Stored with each consent for audit purposes."
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Submission limit"
+msgstr ""
+
+msgid "Submission rejected."
+msgstr ""
+
+msgid "Submitted data"
+msgstr ""
+
+msgid "Symbol position"
+msgstr ""
+
+msgid "Technical field name (lowercase, no spaces). Also used in pricing and scoring rules."
+msgstr ""
+
+msgid "Tell us more (optional)"
+msgstr ""
+
+msgid "Test message sent to the admin email."
+msgstr ""
+
+msgid "Test successful! (This rating was not saved.)"
+msgstr ""
+
+msgid "Thank you for your feedback!"
+msgstr ""
+
+msgid "Thank you! We have received your request."
+msgstr ""
+
+msgid "Thank you! Your request has been received ({reference})"
+msgstr ""
+
+msgid "The Billing page shows, per partner, the leads that can be invoiced. Included are leads routed to a partner that are not cancelled or refunded. After you send an invoice, select the leads and press \"Mark selected as billed\" – they leave the list (you can show them again with the filter)."
+msgstr ""
+
+msgid "The delay can be zero (sent immediately when the trigger fires) or e.g. 30 or 365 days. You can use the same placeholders as in other emails, for example {first_name} and {message}."
+msgstr ""
+
+msgid "The form settings are not valid JSON. Nothing was saved."
+msgstr ""
+
+msgid "The lead base price in your currency (tax excluded)."
+msgstr ""
+
+msgid "The number is the form ID (you can see it on the Forms page). A site can have several forms with different IDs."
+msgstr ""
+
+msgid "The review request and service reminder are configured on the <a href=\"%s\">Emails</a> page, where you can turn each one on or off, edit its text and set its delay. They are off by default."
+msgstr ""
+
+msgid "The review request is sent as part of the follow-up messages (when enabled on the Emails page and the lead\\'s job status is set to \"completed\"). To enable reviews:"
+msgstr ""
+
+msgid "The review request is sent as part of the follow-up messages. Create a hidden (noindex) review page with the shortcode [lmf93_review] and paste its address below. When a customer gives at least the chosen number of stars, they are sent to your public review service. Lower ratings ask for a reason so you can follow up personally."
+msgstr ""
+
+msgid "The value to compare against (an option \"value\")."
+msgstr ""
+
+msgid "The visible label the customer sees."
+msgstr ""
+
+msgid "These options make the form work in any country. By default the postal code accepts any format and the city field is a normal text field. Turn on auto-fill only if you provide a postal-code dataset for your country."
+msgstr ""
+
+msgid "These two messages are built-in features. You can edit their text and delay, and turn them on or off. They are off by default. The review request uses the {review_url} placeholder. Both are sent when a lead\\'s job status is set to \"completed\"."
+msgstr ""
+
+msgid "This form is not available."
+msgstr ""
+
+msgid "This is a test message sent from the dashboard with example data."
+msgstr ""
+
+msgid "This link is no longer valid."
+msgstr ""
+
+msgid "This page explains how to edit forms and use the plugin\\'s features. Forms are defined in JSON on the Forms page."
+msgstr ""
+
+msgid "This partner receives leads"
+msgstr ""
+
+msgid "This plugin ships country-agnostic. Out of the box the postal code accepts any format and the city is a normal text field, so it works anywhere. On the Settings page (Localization) you can:"
+msgstr ""
+
+msgid "This rating and above sends the customer to your public review service (e.g. Google Business or Trustpilot). Lower ratings ask for a reason internally. Example: with a threshold of 4, ratings 1–3 are handled internally and 4–5 are redirected."
+msgstr ""
+
+msgid "This review link is invalid or has expired."
+msgstr ""
+
+msgid "This review link is invalid."
+msgstr ""
+
+msgid "This review link is no longer valid."
+msgstr ""
+
+msgid "Timeline"
+msgstr ""
+
+msgid "Tip: include {review_url} in the message – it is the customer\\'s personal link to the review page. If you leave it out, the link is appended automatically."
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "To keep a lead out of billing, set its job status to \"cancelled\" or \"refunded\" on the lead\\'s own page. The lead value is set automatically from the value_rules when the lead arrives."
+msgstr ""
+
+msgid "Too many submissions. Please try again later."
+msgstr ""
+
+msgid "Total ratings: %1$s · average: %2$s / 5 · low (≤2): %3$s"
+msgstr ""
+
+msgid "Total:"
+msgstr ""
+
+msgid "Transactional messages"
+msgstr ""
+
+msgid "Trigger:"
+msgstr ""
+
+msgid "Turnstile is free and privacy-friendly. Honeypot + timing checks are always on."
+msgstr ""
+
+msgid "URL to a JSON file mapping postal codes to city names, e.g. { \"00100\": \"Helsinki\", \"10001\": \"New York\" }. Leave empty to use the bundled Finnish example dataset. See the Help page for how to add your own country."
+msgstr ""
+
+msgid "Uninstall"
+msgstr ""
+
+msgid "Unknown postal code"
+msgstr ""
+
+msgid "Upload it (e.g. to the Media Library or the plugin\\'s <code>public/data/examples/</code> folder) and copy its URL."
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "We already received your request."
+msgstr ""
+
+msgid "We received your request ({reference})"
+msgstr ""
+
+msgid "When a customer gives a high rating, they are sent to your public review service. A low rating asks for a reason and a free comment, visible only to you on the Feedback page – so you can reach out and handle it personally. On the Feedback page you can mark each item\\'s status (new, contacted, resolved)."
+msgstr ""
+
+msgid "When a customer gives a rating below the threshold and states a reason, it is emailed here so you can reach out. If empty, the admin email is used."
+msgstr ""
+
+msgid "When off, the city field is a normal editable field (recommended for most countries). When on, provide a dataset URL below."
+msgstr ""
+
+msgid "When the type is select, radio or checkbox, add an \"options\" list. Each option has a machine \"value\" and a visible \"label\":"
+msgstr ""
+
+msgid "Where satisfied customers (ratings above the threshold) are sent. E.g. your Google Business review link, Trustpilot page or other review site."
+msgstr ""
+
+msgid "Where unsubscribe links point (optional)."
+msgstr ""
+
+msgid "Which field value to test (the field \"key\")."
+msgstr ""
+
+msgid "Won"
+msgstr ""
+
+msgid "You can also create your own scheduled follow-up messages under \"Scheduled follow-up messages\". For each you choose a trigger, a delay in days, a subject and a body. Available triggers:"
+msgstr ""
+
+msgid "You can manage your message preferences here:"
+msgstr ""
+
+msgid "You can unsubscribe from these messages here:"
+msgstr ""
+
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+msgid "Your follow-up messages"
+msgstr ""
+
+msgid "Your preferences have been saved."
+msgstr ""
+
+msgid "as soon as the customer submits the lead."
+msgstr ""
+
+msgid "e.g. LM → LM-2026-000123"
+msgstr ""
+
+msgid "e.g. €, $, £, kr"
+msgstr ""
+
+msgid "filled from postal code"
+msgstr ""
+
+msgid "seconds (per IP)"
+msgstr ""
+
+msgid "submissions per"
+msgstr ""
+
+msgid "true = required, false = optional."
+msgstr ""
+
+msgid "when the lead is routed to a partner."
+msgstr ""
+
+msgid "when the lead status is set to \"won\"."
+msgstr ""
+
+msgid "when the lead\\'s job status is set to \"completed\"."
+msgstr ""
+
+msgid "— None —"
+msgstr ""
+
+msgid "— Select —"
+msgstr ""
+
+msgid "← Back to leads"
+msgstr ""
+
+msgid "%d lead"
+msgid_plural "%d leads"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%d star"
+msgid_plural "%d stars"
+msgstr[0] ""
+msgstr[1] ""
