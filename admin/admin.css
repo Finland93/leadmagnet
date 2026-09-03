@@ -1,0 +1,120 @@
+/**
+ * LeadMagnet — admin styles.
+ */
+
+.lmf93-admin .lmf93-filters {
+	display: flex;
+	gap: 0.5rem;
+	margin: 1rem 0;
+	align-items: center;
+}
+
+.lmf93-admin .lmf93-count {
+	color: #646970;
+	margin: 0.5rem 0;
+}
+
+.lmf93-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 1rem 1.25rem;
+	margin: 0 0 1.25rem;
+}
+
+.lmf93-card h2 {
+	margin-top: 0;
+	font-size: 1.05rem;
+}
+
+.lmf93-card-danger {
+	border-color: #f0c4c0;
+}
+
+.lmf93-cols {
+	display: flex;
+	gap: 1.5rem;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.lmf93-col-main {
+	flex: 1 1 460px;
+	min-width: 0;
+}
+
+.lmf93-col-side {
+	flex: 0 0 320px;
+	max-width: 340px;
+}
+
+.lmf93-badge {
+	display: inline-block;
+	padding: 0.15em 0.6em;
+	border-radius: 999px;
+	font-size: 0.8em;
+	font-weight: 600;
+	text-transform: capitalize;
+	background: #e5e7eb;
+	color: #374151;
+}
+
+.lmf93-badge-new { background: #dbeafe; color: #1e40af; }
+.lmf93-badge-assigned { background: #ede9fe; color: #5b21b6; }
+.lmf93-badge-contacted { background: #fef3c7; color: #92400e; }
+.lmf93-badge-won { background: #dcfce7; color: #166534; }
+.lmf93-badge-lost { background: #fee2e2; color: #991b1b; }
+
+.lmf93-timeline {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.lmf93-timeline li {
+	display: flex;
+	gap: 1rem;
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #f0f0f1;
+	font-size: 0.9rem;
+}
+
+.lmf93-timeline li:last-child {
+	border-bottom: none;
+}
+
+.lmf93-timeline-time {
+	flex: 0 0 130px;
+	color: #646970;
+}
+
+.lmf93-shortcode-hint {
+	margin: 1rem 0;
+	padding: 0.5rem 0.75rem;
+	background: #f6f7f7;
+	border-left: 3px solid #2271b1;
+}
+
+.lmf93-delete {
+	color: #b32d2e;
+}
+
+/* Ohjeet-sivun koodilohkot */
+.lmf93-help .lmf93-code {
+	background: #0d1f18;
+	color: #d7f0e6;
+	padding: 14px 16px;
+	border-radius: 8px;
+	overflow-x: auto;
+	font-size: 13px;
+	line-height: 1.5;
+	white-space: pre;
+	margin: 10px 0 16px;
+}
+.lmf93-help h2 { margin-top: 30px; }
+.lmf93-help h3 { margin-top: 20px; }
+.lmf93-help code {
+	background: #eef4f1;
+	padding: 1px 5px;
+	border-radius: 4px;
+}
